@@ -37,7 +37,7 @@ function GetPhotos() {
   return (
     <div>
       <h1>Random Photo Generator</h1>
-      <button onClick={handleRefreshClick}>Refresh</button>
+      <button onClick={handleRefreshClick}>🎲</button>
       <div className="random">
         {photos.map((photo, index) => (
           <img
