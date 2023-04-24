@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 const url = "https://picsum.photos/v2/list";
 
 function GetPhotos() {
   const [photos, setPhotos] = useState([]);
-  const [modalOpen, setModalOpen] = useState('');
+  const [modalOpen, setModalOpen] = useState("");
   const [selectedPhoto, setSelectedPhoto] = useState("");
 
   useEffect(() => {
@@ -31,7 +31,7 @@ function GetPhotos() {
   }
 
   function handleRefreshClick() {
-    window.location.reload(true)
+    window.location.reload(true);
   }
 
   return (
@@ -50,7 +50,10 @@ function GetPhotos() {
       </div>
       {modalOpen && (
         <div className="modal" onClick={handleModalClose}>
-          <img src={`https://picsum.photos/800?random=${selectedPhoto.id}`} alt="" />
+          <img
+            src={`https://picsum.photos/800?random=${selectedPhoto.id}`}
+            alt=""
+          />
         </div>
       )}
     </div>
