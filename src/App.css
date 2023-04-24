@@ -15,7 +15,7 @@ h1 {
   justify-content: center;
   align-content: center;
   font-stretch: expanded;
-  font-family: "DotGothic16", sans-serif;
+  font-family: 'Play', sans-serif;
   margin: 0 0 5% 0;
   font-size: 5em;
   color: white;
@@ -38,13 +38,12 @@ button {
 }
 
 button:hover {
-  background: black;
   -webkit-box-shadow: 0 4px 6px rgba(105, 105, 105, 0.3);
   -moz-box-shadow: 0 4px 6px rgba(105, 105, 105, 0.3);
   box-shadow: 0 4px 6px rgba(105, 105, 105, 0.3);
-  transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  -webkit-transform: rotate(360deg);
+  transform: rotate(720deg);
+  -ms-transform: rotate(720deg);
+  -webkit-transform: rotate(720deg);
 }
 
 .thumbs {
@@ -70,11 +69,19 @@ button:hover {
   margin: 0 auto;
   justify-content: center;
   align-items: center;
-  padding: 10px;
-  background-color: rgb(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.761);
   top: 0;
+  
+  
 }
 
 .modal img {
-  border-radius: 20px;
+  background: #fff;
+  padding: 30px 30px 60px;
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }

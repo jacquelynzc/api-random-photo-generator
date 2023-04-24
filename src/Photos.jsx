@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { Link } from "react-router-dom";
-
 const url = "https://picsum.photos/v2/list";
 
 function GetPhotos() {
@@ -36,12 +34,13 @@ function GetPhotos() {
 
   return (
     <div>
-      <h1>Random Photo Generator</h1>
+      <h1>Photo Randomizer</h1>
       <button onClick={handleRefreshClick}>🎲</button>
       <div className="random">
         {photos.map((photo, index) => (
-          <img
+          <img 
             className="thumbs"
+            alt="randomly selected"
             src={`https://picsum.photos/800?random=${photo.id}`}
             key={photo.id}
             onClick={() => handleThumbnailClick(photo)}
