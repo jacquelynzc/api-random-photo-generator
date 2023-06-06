@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/api-random-photo-generator/static/css/main.6a8b3796.css",
+    "main.js": "/api-random-photo-generator/static/js/main.8cc666e7.js",
+    "static/js/787.7204e5a7.chunk.js": "/api-random-photo-generator/static/js/787.7204e5a7.chunk.js",
+    "index.html": "/api-random-photo-generator/index.html",
+    "main.6a8b3796.css.map": "/api-random-photo-generator/static/css/main.6a8b3796.css.map",
+    "main.8cc666e7.js.map": "/api-random-photo-generator/static/js/main.8cc666e7.js.map",
+    "787.7204e5a7.chunk.js.map": "/api-random-photo-generator/static/js/787.7204e5a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a8b3796.css",
+    "static/js/main.8cc666e7.js"
+  ]
+}
