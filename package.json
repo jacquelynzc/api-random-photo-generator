@@ -1,8 +1,7 @@
 {
   "name": "react-redo-ui-pattern",
   "version": "0.2.0",
-  "homepage": "https://jacquelynzc.github.io/api-random-photo-generator",
-  "private": true,
+  "homepage": "https://jacquelynzc.github.io/api-random-photo-generator/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
